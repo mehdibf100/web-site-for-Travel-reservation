@@ -11,3 +11,304 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar{
+  width: 100%;
+  height: 130px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+ul{
+ 
+  width: 70%;
+  padding: 0;
+  text-align: right;
+  display: flex;
+  list-style-type: none;
+}
+ul a{
+  
+  color: #000000;
+  padding: 0 15px;
+  text-decoration: none;
+}
+.logo{
+  font-size: 30px;
+  width: 20%;
+
+
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  margin-right: 50px;
+  
+
+
+}.logo1{
+  float: left;
+  margin-top: -20px;
+ 
+}
+img{
+  float: left;
+  margin-top: -20px;
+  
+}
+
+
+.active{
+  border: 2px solid;
+  border-top: 1px;
+  border-left: 1px;
+   border-right: 1px;
+  border-color: rgb(0, 0, 0);
+  font-weight: bold;
+
+}
+
+#img{
+  background-image: url("abu-dhabi.jpg");
+
+  /* Full height */
+  height: 500px;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+}
+.bg-text {
+
+  
+  color: white;
+  font-weight: bold;
+  
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 17px;
+}
+
+.search{
+  border-radius: 18px;
+  width: 380px;
+  height: 34px;
+  border: 2.5px solid rgb(215, 214, 214);
+ 
+  
+
+}
+.search_resto{
+  border-radius: 30px;
+  width: 900px;
+  height: 60px;
+  border: none;
+  font-size: 17px;
+border: none;
+
+}
+
+
+
+
+
+#abo{
+  background-image: url("home-tab4-hero-1367x520-prog.jpg");
+
+  /* Full height */
+  height: 500px;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+  
+}
+#resto{
+  
+    background-image: url("resturant.jpg");
+  
+    /* Full height */
+    height: 500px;
+    width: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -20px;
+    
+  }
+  .bt-inscri{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #000000;
+  
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    
+    
+    border: 1px solid;
+  }
+  .bt-inscri:hover{
+    background-color: #ffffff;
+    color: #000;
+    transform: translateY(5px);
+  }
+
+.icon{
+  margin-right: 10px;
+  
+}
+
+
+.trips{
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #000000;
+ 
+}
+.trips :hover {
+  background-color: rgb(231, 231, 231);
+}
+.rev{
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 20px;
+  float: right;
+  padding-left: 15px;
+  padding-top: 10px;
+ 
+}
+.sin{
+
+  border-radius: 20px;
+  padding-left: 20px;
+  
+  padding-left: 15px;
+  padding-top: 10px;
+  top: 10px;
+
+}
+.sinin{
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #000000;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  float: right;
+  margin-top: 10px;
+  border: 1px solid;
+  
+}
+.sinin:hover{
+  background-color: #ffffff;
+  color: #000;
+  transform: translateY(5px);
+}
+.cart{
+
+width: 300px;
+height: 320px;
+background-color: #ffffff;
+color: #000000;
+margin-top: 20px;
+border-radius: 10%;
+margin-left: 30px;
+text-align: center;
+float: left;
+
+
+}
+.cart button{
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(22, 168, 22);
+  border: none;
+}
+.sh{
+  
+  border-radius: 20px;
+  width: 100px;
+  height: 60px;
+   background-color: #ffffff ;
+   font-weight: bold;
+   border: none;
+}
+.sh:hover{
+  color: #ffffff ;
+  background-color: #000;
+}
+.cart img{
+  width: 300px;
+  height: 170px;
+  
+}
+.img1{
+  width: 140px;
+}
+.img2{
+  width: 100px;
+
+}
+.rest{
+float: left;
+  margin-left: 70px;
+  padding-right: 30px;
+  padding-top: 20px;
+  
+}
+.rest2{
+  float: right;
+   
+    padding-right: 30px;
+  
+    
+  }
+.title{
+  
+  text-decoration:none;
+  font-size: 15px;
+  color: #000;
+}
+.title:hover{
+  border: 2px solid;
+  border-top: 1px;
+  border-left: 1px;
+   border-right: 1px;
+  border-color: rgb(0, 0, 0);
+ font-size: 17px;
+
+
+ 
+}
+a:link {
+  text-decoration: none;
+}
+video{
+
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  width: 1050px;
+  height: 800px;
+
+  
+}
+footer{
+  background-color: rgb(248, 237, 221);
+  width: 100%;
+  height: 200px;
+}
